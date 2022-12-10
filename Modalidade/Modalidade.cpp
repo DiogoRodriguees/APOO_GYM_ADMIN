@@ -6,5 +6,5 @@ char* Modalidade::GetNome(){
 }
 
 void Modalidade::SetNome(char *nome){
-    strcpy(this->nome, nome);
+   this->nome =  nome;
 }

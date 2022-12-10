@@ -44,7 +44,9 @@ void System::ContratarFuncionario()
     system(CLEAR_TERMINAL);
     std::cout << "Preenca os campos do contrato....\n";
 
-    int cpf,i ,j = 0;
+    int cpf;
+    int i = 0;
+    int j = 0;
     std::cout << "CPF: ";
     std::cin >> cpf;
     Modalidade** modalidades = this->contratoCtrl->IniciarContrato(cpf, &i);
@@ -58,12 +60,14 @@ void System::ContratarFuncionario()
 
     std::cout << "Informe as modalidade do contrato: \n";
     while(j < i){
-        std::cout<< j + 1 << ". "<< modalidades[j]->GetNome() << "\n";
+        std::cout << "Entrei\n";
+        std::cout << "i:"<< i << "\n";
+        std::cout << "j:"<< j << "\n";
         j++;
     }
 
     std::cin >> cpf;
-    Modalidade *modalidade = cpf == 1 ? modalidades[0] : modalidades[1];
+    Modalidade *modalidade = modalidades[cpf];
     this->contratoCtrl->InserirModalidadesDoProfessor(modalidade);
 
     system(CLEAR_TERMINAL);

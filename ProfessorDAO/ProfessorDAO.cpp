@@ -9,6 +9,7 @@ Professor* ProfessorDAO::Retrive(int cpf){
     professor->SetCPF(123);
     Modalidade *modalidade1 = new Modalidade;
     Modalidade *modalidade2 = new Modalidade;
+    char boxe[20]
     modalidade1->SetNome("BOXE");
     modalidade2->SetNome("JUDO");
     professor->SetModalidade(modalidade1);

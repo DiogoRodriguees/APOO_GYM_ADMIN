@@ -3,10 +3,11 @@
 
 ModalidadeDAO::ModalidadeDAO(){
     this->quantidadeModalidade = 0;
-    this->Create("Boxe");
-    this->Create("Judo");
-    this->Create("Muay Tai");
-    this->Create("Crossfit");
+    char nome[20] = "Boxe";
+    Modalidade *modalidadeTeste = this->Create(nome);
+    // modalidadeTeste = this->Create(nome);
+    // modalidadeTeste = this->Create(nome);
+    // modalidadeTeste = this->Create(nome);
 }
 
 Modalidade **ModalidadeDAO::GetModalidades()

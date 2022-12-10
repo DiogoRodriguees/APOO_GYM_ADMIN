@@ -34,8 +34,7 @@ void Professor::SetSalario(float  salario_recebido){
 }
 
 void Professor::SetModalidade(Modalidade*modalidade){
-    this->modalidades[nova] = modalidade;
-    this->nova++;
+    this->modalidades[this->nova++] = modalidade;
 }
 
 Modalidade* Professor::GetModalidade(){

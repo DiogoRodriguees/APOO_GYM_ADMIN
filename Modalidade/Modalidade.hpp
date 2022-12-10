@@ -1,5 +1,5 @@
 class Modalidade{
-    char nome[20];
+    char *nome;
 
 public:
     char *GetNome();
