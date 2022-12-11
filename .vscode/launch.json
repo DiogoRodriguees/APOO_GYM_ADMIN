@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/diogo/Documentos/APOO_GymAdmin",
-      "program": "/home/diogo/Documentos/APOO_GymAdmin/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/Diogo/OneDrive/Documentos/FACULDADE/Periodos e Disciplinas/3° Periodo/Analise de projeto orientado a Objeto/Arquivos Da Documentação - GymAdmin/APOO_GymAdmin",
+      "program": "c:/Users/Diogo/OneDrive/Documentos/FACULDADE/Periodos e Disciplinas/3° Periodo/Analise de projeto orientado a Objeto/Arquivos Da Documentação - GymAdmin/APOO_GymAdmin/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
